@@ -282,7 +282,7 @@ class Tree:
 
 
 class Node:
-  def initialize(self, value)
+  def __init__(self, value)
     self.value = value
     self.children = []
 
